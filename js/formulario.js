@@ -18,7 +18,7 @@ document.getElementById("nombre").addEventListener("input", function () {
       return;
     }
   
-    const tuNumero = "573197379716";
+    const tuNumero = "573218008160";
     const numeroCompleto = `+${indicativo}${celular}`;
     const mensaje = `Hola, soy ${nombre} y tengo una propuesta de una casa o apartamento. Mi número es: ${numeroCompleto}`;
     const url = `https://wa.me/${tuNumero}?text=${encodeURIComponent(mensaje)}`;
